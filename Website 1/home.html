@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="Dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Bhiwani District Primary Co-op. Agri. & Rural Dev. Bank Ltd.</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+  <style>
+    .navbar {
+            background-color: #ffb600;
+            color: #ffb600;
+            padding: 1rem;
+            text-align: center;
+    }
+
+    .dropdown-submenu {
+        position: relative;
+    }
+
+    .dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -1px;
+    }
+
+    .dropdown:hover>.dropdown-menu,
+    .dropdown-submenu:hover>.dropdown-menu {
+        display: block;
+    }
+
+    .text-body-emphasis {
+      color: #d04a02;
+    }
+
+    .btn-primary {
+      background-color: #eb8c00;
+      border: none;
+    }
+
+    .btn-outline-secondary {
+      border-color: #db536a;
+      color: #db536a;
+    }
+
+    .btn-outline-secondary:hover {
+      background-color: #db536a;
+      color: #fff;
+    }
+
+    footer {
+      background-color: #2d2d2d;
+      color: #fff;
+    }
+
+    .icon-link img {
+      margin-left: 8px;
+    }
+
+    .carousel-indicators button {
+      background-color: #eb8c00;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    .hero {
+      background: url('./images/image.png') no-repeat center center/cover;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1rem 5rem 1rem 5rem;
+    }
+    .content-section {
+      padding: 2rem;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin: 2rem auto;
+      width: 80%;
+      max-width: 1200px;
+    }
+    .content-section h2 {
+      color: #ffb600; /* Yellow */
+      margin-bottom: 1rem;
+    }
+    .content-section p {
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+    .content-section ul {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+    }
+    .services, .mission-goals, .technologies {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .card {
+      background-color: #d04a02;
+      color: #fff;
+      flex: 1 1 calc(33% - 1rem);
+      margin: 0.5rem;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card h3 {
+      margin-bottom: 1rem;
+    }
+    .card p {
+      color: #fff;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 2rem;
+    }
+    .gallery img {
+      flex: 1 1 calc(33% - 1rem);
+      margin: 0.5rem;
+      border-radius: 8px;
+      height: 600px;
+      object-fit: cover;
+    }
+
+
+
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="color: white">The Bhiwani District Primary Co-op. Agri. & Rural Dev. Bank Ltd.</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <!-- Agricultural Based Section -->
+              <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Agricultural Based</a>
+                  <ul class="dropdown-menu">
+                      <!-- Financial Services -->
+                      <li class="dropdown-submenu">
+                          <a class="dropdown-item dropdown-toggle" href="#">Financial Services</a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Bank & Agriculture Loans</a></li>
+                              <li><a class="dropdown-item" href="#">Insurance & Training Services</a></li>
+                          </ul>
+                      </li>
+                      <!-- Non-Financial Services -->
+                      <li class="dropdown-submenu">
+                          <a class="dropdown-item dropdown-toggle" href="#">Non-Financial Services</a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="machinery-service.html">Machinery & Equipment Services</a></li>
+                              <li><a class="dropdown-item" href="#">Storage & Processing Unit Rentals</a></li>
+                              <li><a class="dropdown-item" href="#">Delivery & Distribution Services</a></li>
+                              <li><a class="dropdown-item" href="#">Agri-produce Auction & Sales</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </li>
+              <!-- Non-Agricultural Based Section -->
+              <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Non-Agricultural Based</a>
+                  <ul class="dropdown-menu">
+                      <!-- Financial Services -->
+                      <li class="dropdown-submenu">
+                          <a class="dropdown-item dropdown-toggle" href="#">Financial Services</a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Bill Payment & Loan Services</a></li>
+                              <li><a class="dropdown-item" href="#">Utility & Charity Services</a></li>
+                          </ul>
+                      </li>
+                      <!-- Non-Financial Services -->
+                      <li class="dropdown-submenu">
+                          <a class="dropdown-item dropdown-toggle" href="#">Non-Financial Services</a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Inventory & Stock Management</a></li>
+                              <li><a class="dropdown-item" href="#">Vehicle & Building Rental Services</a></li>
+                              <li><a class="dropdown-item" href="#">Health Services & Lab Tests</a></li>
+                              <li><a class="dropdown-item" href="#">Skill, Learning & Training Services</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+      </li>
+      </ul>
+      <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+        <input type="search" class="form-control" placeholder="Search..." aria-label="Search" spellcheck="false" data-ms-editor="true">
+      </form>
+        <!-- Login and Sign-up -->
+        <div class="text-end">
+            <button type="button" class="btn btn-outline-light" onclick="window.location.href='login_page.html'">Customer Login</button>
+            <button type="button" class="btn btn-light" onclick="window.location.href='admin_login.html'">Admin Login</button>
+        </div>
+    </div>
+  </div>
+</nav>
+
+
+
+  <header class="hero">
+    <h1>Empowering Rural Communities</h1>
+  </header>
+
+  <main>
+    <section class="content-section">
+      <h2>Overview</h2>
+      <p>The Bhiwani District Primary Co-op. Agri. & Rural Dev. Bank Ltd. (PCARDB) meets the financial needs of farmers and rural people. This bank supports agriculture and rural development by providing loans and other financial services.
+
+        We were established in 1920 and has been serving the people of Bhiwani since then. The bank offers loans for crops, buying equipment, and other needs. Additionally, it supports small businesses in rural areas.</p>
+    </section>
+
+    <section class="content-section">
+      <h2>Our Mission and Goals</h2>
+      <div class="mission-goals">
+        <div class="card">
+          <h3>Helping Farmers Grow</h3>
+          <p>Giving money help for growing crops, setting up irrigation, and using machines.</p>
+        </div>
+        <div class="card">
+          <h3>Supporting Rural Development</h3>
+          <p>Helping with rural roads, small industries, and local businesses.</p>
+        </div>
+        <div class="card">
+          <h3>Financial Inclusion</h3>
+          <p>Making sure everyone in the village can get loans and other money services.</p>
+        </div>
+        <div class="card">
+          <h3>Sustainable Development</h3>
+          <p>Encouraging good farming practices and taking care of the environment.</p>
+        </div>
+        <div class="card">
+          <h3>Empowering Members</h3>
+          <p>Teaching and training members to improve their skills and abilities.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2>Our Services</h2>
+      <div class="services">
+        <div class="card">
+          <h3>Agricultural Loans</h3>
+          <p>Short-term, medium-term, and long-term loans for various agricultural purposes.</p>
+        </div>
+        <div class="card">
+          <h3>Rural Development Loans</h3>
+          <p>Financing for rural infrastructure projects like roads, schools, and healthcare facilities.</p>
+        </div>
+        <div class="card">
+          <h3>Microfinance</h3>
+          <p>Small loans for rural entrepreneurs to start or expand micro-enterprises.</p>
+        </div>
+        <div class="card">
+          <h3>Savings Accounts</h3>
+          <p>Encouraging rural savings through various deposit schemes.</p>
+        </div>
+        <div class="card">
+          <h3>Insurance Services</h3>
+          <p>Crop insurance and other risk management products to protect farmers.</p>
+        </div>
+        <div class="card">
+          <h3>Technical Assistance</h3>
+          <p>Providing guidance and training on modern agricultural practices and technologies.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2>Technologies We Use</h2>
+      <div class="technologies">
+        <div class="card">
+          <h3>Core Banking Solutions (CBS)</h3>
+          <p>Connecting all bank branches to provide smooth services everywhere.</p>
+        </div>
+        <div class="card">
+          <h3>Mobile Banking</h3>
+          <p>Offering banking services through mobile apps for easy use.</p>
+        </div>
+        <div class="card">
+          <h3>Digital Payment Systems</h3>
+          <p>Using electronic payment systems for cashless transactions.</p>
+        </div>
+        <div class="card">
+          <h3>Agri-Tech Solutions</h3>
+          <p>Helping farmers with weather updates, market prices, and advice.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section gallery">
+      <h2>Our Location</h2>
+      <div class="container">
+  <div id="carouselExampleIndicators" class="carousel slide pointer-event">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="./images/building1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item active">
+        <img src="./images/board.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/building2.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+    <iframe
+      width="100%"
+      height=400px
+      frameborder="0" style="border:0"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1036.1691011904998!2d76.13365884570003!3d28.801112966516484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391267f1c450ac8f%3A0x3478e729a0a3a3a4!2sThe%20Bhiwani%20District%20Primary%20Co-op.%20Agri.%20%26%20Rural%20Dev.%20Bank%20Ltd!5e0!3m2!1sen!2sin!4v1721110235268!5m2!1sen!2sin" style="border:5;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+    </section>
+
+
+</main>
+
+<footer class="text-center py-4">
+  <p>&copy; 2024 PCARDB. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
